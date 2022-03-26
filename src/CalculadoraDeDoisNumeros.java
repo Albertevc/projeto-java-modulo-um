@@ -10,6 +10,19 @@ public class CalculadoraDeDoisNumeros {
         if(operacao == "SOMA"){
             return fatorUm + fatorDois;
         }
+
+        else if(operacao == "SUBTRACAO"){
+            return fatorUm - fatorDois;
+        }
+
+        else if(operacao == "DIVISAO"){
+            return fatorUm / fatorDois;
+        }
+
+        else if(operacao == "MULTIPLICACAO"){
+            return fatorUm * fatorDois;
+        }
+
         return null;
 
     }
