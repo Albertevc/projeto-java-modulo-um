@@ -10,6 +10,15 @@ public class CalculadoraDeDoisNumeros {
         if(operacao == "SOMA"){
             return fatorUm + fatorDois;
         }
+        if(operacao == "ADCAO") {
+            return fatorUm + fatorDois;
+        }
+        if(operacao == "MULTIPLICACAO") {
+            return fatorUm * fatorDois;
+        }
+        if(operacao == "DIVISAO") {
+            return fatorUm / fatorDois;
+        }
         return null;
 
     }
