@@ -7,19 +7,19 @@ public class CalculadoraDeDoisNumeros {
             String operacao
             ){
         // TRUE OU FALSE
-        if(operacao == "SOMA"){
+        if(operacao.equalsIgnoreCase("SOMA")){
             return fatorUm + fatorDois;
         }
 
-        else if(operacao == "SUBTRACAO"){
+        else if(operacao.equalsIgnoreCase("SUBTRACAO")){
             return fatorUm - fatorDois;
         }
 
-        else if(operacao == "DIVISAO"){
+        else if(operacao.equalsIgnoreCase("DIVISAO")){
             return fatorUm / fatorDois;
         }
 
-        else if(operacao == "MULTIPLICACAO"){
+        else if(operacao.equalsIgnoreCase("MULTIPLICACAO")){
             return fatorUm * fatorDois;
         }
 

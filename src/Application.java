@@ -8,7 +8,7 @@ public class Application {
         Double soma = calculadoraDeDoisNumeros.calcular(
                 2D,
                 2D,
-                "SUBTRACAO"
+                "multiplicacao"
         );
 
         System.out.println(soma);
