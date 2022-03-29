@@ -1,3 +1,5 @@
+package br.com.projetojava.moduloum;
+
 public class CalculadoraDeDoisNumeros {
 
     //Em construção
