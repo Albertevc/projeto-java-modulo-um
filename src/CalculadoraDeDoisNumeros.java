@@ -10,19 +10,15 @@ public class CalculadoraDeDoisNumeros {
         if(operacao.equalsIgnoreCase("SOMA")){
             return fatorUm + fatorDois;
         }
-
-        else if(operacao.equalsIgnoreCase("SUBTRACAO")){
-            return fatorUm - fatorDois;
+        if(operacao == "ADCAO") {
+            return fatorUm + fatorDois;
         }
-
-        else if(operacao.equalsIgnoreCase("DIVISAO")){
-            return fatorUm / fatorDois;
-        }
-
-        else if(operacao.equalsIgnoreCase("MULTIPLICACAO")){
+        if(operacao == "MULTIPLICACAO") {
             return fatorUm * fatorDois;
         }
-
+        if(operacao == "DIVISAO") {
+            return fatorUm / fatorDois;
+        }
         return null;
 
     }
