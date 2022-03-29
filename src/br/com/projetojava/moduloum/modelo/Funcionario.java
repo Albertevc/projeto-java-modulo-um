@@ -1,11 +1,23 @@
 package br.com.projetojava.moduloum.modelo;
 
+import java.text.DecimalFormat;
+
 //ABSTRAÇÃO
 public class Funcionario {
 
     private String nome;
     private Double salario;
     private Double desconto;
+
+    public Funcionario (
+            String nome,
+            Double salario,
+            Double desconto
+    ) {
+        setNome(nome);
+        setSalario(salario);
+        setDesconto(desconto);
+    }
 
     public Double getSalario() {
         return salario;
@@ -30,4 +42,6 @@ public class Funcionario {
     public void setDesconto(Double desconto) {
         this.desconto = desconto;
     }
+
+
 }
