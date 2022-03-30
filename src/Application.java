@@ -8,10 +8,14 @@ public class Application {
         CalculadoraDeSalario calculadoraDeSalario = new CalculadoraDeSalario();
 
         Funcionario[] funcionarios = new Funcionario[5];
+        double salarioFixo = 100.00;
+        double desconto = 10.00;
+
+        //características do funcionário;
         Funcionario funcionario = new Funcionario();
         funcionario.setNome("Albert");
-        funcionario.setSalario(100.00);
-        funcionario.setDesconto(10.00);
+        funcionario.setSalario(salarioFixo);
+        funcionario.setDesconto(desconto);
         funcionarios[0] = funcionario;
 
         String[] strings = new String[7];
@@ -24,7 +28,9 @@ public class Application {
         strings[6] = "Natanael";
 
         calculadoraDeSalario.calcular(
-                strings
+                for(int i = 0; i == funcionarios.length; i++){
+                    
+                }
         );
 
         //TAREFA
