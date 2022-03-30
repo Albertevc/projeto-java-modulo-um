@@ -29,7 +29,7 @@ public class Application {
 
         calculadoraDeSalario.calcular(
                 for(int i = 0; i == funcionarios.length; i++){
-                    
+
                 }
         );
 
