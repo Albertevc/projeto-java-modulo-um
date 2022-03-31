@@ -1,12 +1,14 @@
 package br.com.projetojava.moduloum;
 
+import br.com.projetojava.moduloum.modelo.Funcionario;
+
 import java.util.Arrays;
 
 public class CalculadoraDeSalario {
 
     //Encapsulamento
     //Array é uma estrutura de dados que guarda informações posicionalmente
-    public void calcular(String[] funcionarios){
+    public void calcular(Funcionario[] funcionarios){
 
         //ITERAR, é um verbo que significa percorrer uma estrutura de lista
 
@@ -17,7 +19,7 @@ public class CalculadoraDeSalario {
                 i++ // INCREMENTAÇÃO DO INDICE
         ){
 
-            String funcionario = funcionarios[i];
+            String Funcionario = funcionario[i];
             System.out.println(funcionario);
 
         }

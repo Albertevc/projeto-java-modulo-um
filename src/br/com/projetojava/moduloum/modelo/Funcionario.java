@@ -1,6 +1,6 @@
 package br.com.projetojava.moduloum.modelo;
 
-//ABSTRAÇÃO
+
 public class Funcionario {
 
     private String nome;
