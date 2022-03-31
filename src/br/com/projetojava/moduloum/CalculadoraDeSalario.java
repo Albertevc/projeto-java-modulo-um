@@ -19,9 +19,6 @@ public class CalculadoraDeSalario {
                 i++ // INCREMENTAÇÃO DO INDICE
         ){
 
-            String Funcionario = funcionario[i];
-            System.out.println(funcionario);
-
         }
 
         //ENQUANTO
@@ -29,7 +26,7 @@ public class CalculadoraDeSalario {
         while(
                 i < funcionarios.length
         ){
-            String funcionario = funcionarios[i];
+            String funcionario = String.valueOf(funcionarios[i]);
             System.out.println(funcionario);
             i++;
         }

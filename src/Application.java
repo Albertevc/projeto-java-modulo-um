@@ -45,7 +45,8 @@ public class Application {
             funcionario.setDesconto(510.00);
             funcionarios[6] = funcionario;
            calculadoraDeSalario.calcular(funcionarios);
-            System.out.println(funcionario);
+
+           System.out.println(funcionario);
 
     }
 
