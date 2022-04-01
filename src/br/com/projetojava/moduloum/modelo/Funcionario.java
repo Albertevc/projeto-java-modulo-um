@@ -7,11 +7,11 @@ public class Funcionario {
     private Double salario;
     private Double desconto;
 
+
     public Double getSalario() {
         return salario;
     }
-
-    public void setSalario(Double salario) {
+    public void setSalario(double salario) {
         this.salario = salario;
     }
 
@@ -27,7 +27,12 @@ public class Funcionario {
         return desconto;
     }
 
-    public void setDesconto(Double desconto) {
+    public void setDesconto(double desconto) {
         this.desconto = desconto;
     }
+
+
+
 }
+
+
