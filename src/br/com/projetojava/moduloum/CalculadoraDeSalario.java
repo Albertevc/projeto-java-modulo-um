@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class CalculadoraDeSalario {
 
     //Encapsulamento
-    //Array é uma estrutura de dados que guarda informações posicionalmente
+    //ExemploArray é uma estrutura de dados que guarda informações posicionalmente
     public void calcular(String[] funcionarios){
 
         //ITERAR, é um verbo que significa percorrer uma estrutura de lista
