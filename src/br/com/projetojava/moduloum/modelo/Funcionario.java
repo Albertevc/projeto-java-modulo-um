@@ -1,33 +1,41 @@
 package br.com.projetojava.moduloum.modelo;
 
-
 public class Funcionario {
+    private int Salario;
+    private String Nome;
+    private cadastrarfuncionario.Departamento Dep;
 
-    private String nome;
-    private Double salario;
-    private Double desconto;
-
-    public Double getSalario() {
-        return salario;
+    public Funcionario() {
     }
 
-    public void setSalario(Double salario) {
-        this.salario = salario;
+    public Funcionario(int Salario, String Nome) {
+        this.Salario = Salario;
+        this.Nome = Nome;
+    }
+
+    public int getSalario() {
+        return Salario;
+    }
+
+    public void setSalario(int Matricula) {
+        this.Salario = Matricula;
     }
 
     public String getNome() {
-        return nome;
+        return Nome;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setNome(String Nome) {
+        this.Nome = Nome;
     }
 
-    public Double getDesconto() {
-        return desconto;
+    public cadastrarfuncionario.Departamento getDep() {
+        return Dep;
     }
 
-    public void setDesconto(Double desconto) {
-        this.desconto = desconto;
+    public void setDep(cadastrarfuncionario.Departamento Dep) {
+        this.Dep = Dep;
     }
+
+
 }

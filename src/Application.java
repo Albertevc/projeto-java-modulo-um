@@ -1,4 +1,3 @@
-import br.com.projetojava.moduloum.CalculadoraDeSalario;
 import br.com.projetojava.moduloum.modelo.Funcionario;
 
 public class Application {
@@ -44,8 +43,8 @@ public class Application {
             funcionario.setSalario(5000.00);
             funcionario.setDesconto(510.00);
             funcionarios[6] = funcionario;
-           calculadoraDeSalario.calcular(funcionarios);
 
+            CalculadoraDeSalario calcular;
            System.out.println(funcionario);
 
     }
